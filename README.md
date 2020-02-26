@@ -14,7 +14,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 > 2.Apply Domain Driven Design with : 
 
 > - Infrastructure Module: DataService( HTTP, LocalStorage, Websocket, Files, Firebase ), ConfigurationService, TranslationService, AppStateService
-> - Feature Module(Domain + Application + Interface) : User Module, Todolist Module
+> - Feature Module(Domain + Application + Interface) : User Module, Todolist Module, Layout Module(provide stateless components which will be used in another module), Notification Module, UIKit Module(which used the layout components)
+
+Questions:
+
+1. How to use layout in another module? A layout component will wrap the feature module components which has same layout structure or can use the atomic components seperately. Eg: header, footer
 
 #### Details
 
@@ -74,4 +78,36 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  - Application(driving the workflow of the application, matching the use cases at hand, coordinates the domain layer objects to perform the actual work)
  - Domain : the heart of the software which make business decitions. There is one package per aggregate, and to each aggregate belongs entities, value objects, domain events, a repository interface and sometimes factories. The aggregate roots are Cargo, HandlingEvent, Location and Voyage.
 
- > **SPA:** single page application
+> **SPA:** single page application
+
+## Refs
+
+- Pass enviroment variables during build vs file : https://github.com/angular/angular-cli/issues/4318 ==> Can pass CI_COMMIT_ID
+
+### Prerequisites
+
+<ol>
+	<li>Typescript</li>	
+	<li>Declarative Programming</li>
+	<li>OOP</li>
+	<li>RxJS Pattern</li>
+</ol>
+
+### Essentials
+
+<ol>
+	<li>Components</li>
+	<li>Modules</li>
+	<li>Services & DI</li>
+	<li>Forms</li>
+	<li>Observables & RxJS</li>
+	<li>NgModules</li>
+	<li>HTTP Client</li>
+	<li>Routing & Navigation</li>
+	<li>Animations</li>
+</ol>
+
+1. Component
+
+- Basically is a set of function ( implemented as a class with decoration ) which instructs NgModules render the associated HTML
+
