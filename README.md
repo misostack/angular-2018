@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > 2.Apply Domain Driven Design with : 
 
-> - Infrastructure Module: DataService( HTTP, LocalStorage, Websocket, Files, Firebase ), ConfigurationService, TranslationService, FileService, AppStateService
+> - Infrastructure Module: DataService( HTTP, LocalStorage, Websocket, Files, Firebase ), ConfigurationService, TranslationService, AppStateService
 > - Feature Module(Domain + Application + Interface) : User Module, Todolist Module
 
 #### Details
@@ -30,11 +30,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > Sometimes your application should support user to switch to another language, and also for code management target, you need to get the text from a specific locale file.
 
-4.FileService
 
-> 
-
-5.AppStateService
+4.AppStateService
 
 > Background : No matter which framework you choose — you should ask yourself about the **<u>app’s state management</u>** first because building a frontend architecture and choosing the appropriate way of managing state is one of the biggest challenges. Let's dive deeply
 
