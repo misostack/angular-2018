@@ -7,3 +7,15 @@
 <div innerHTML="{{aLink}}"></div>
 
 <div innerHTML="{{'<a target=blank href=http://google.com>Google</a>'}}">...</div>
+
+<ul>
+  <li *ngFor="let slide of slides">
+    <h3>{{slide.title}}</h3>
+    <p>{{slide.description}}</p>
+    <div *ngIf="slide.bullets as bullets">
+      <ol>
+        <li *ngFor="let bullet of bullets">{{bullet}}</li>
+      </ol>
+    </div>
+  </li>
+</ul>
