@@ -26,7 +26,7 @@ export class AppComponent {
   description = '<p><strong>HTML String</strong></p>'
   aLink = '<a href="http://localhost:4200">Angular App Local</a>'
   slides: Array<{}>
-  @ViewChild('bindingInput') bindingInput: ElementRef
+  @ViewChild('bindingInput', {static: false}) bindingInput: ElementRef
 
   constructor(){
   	console.log('constructor')
