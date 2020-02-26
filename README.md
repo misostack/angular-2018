@@ -52,10 +52,23 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 !['simple-states-through-angular-service'][simple_states_through_angular_service]
 
+> **Hierarchical component’s interaction**
+
+
+![ng_service_with_rxjs_pattern][[ng_service_with_rxjs_pattern]]
+
+> **Angular services with RxJS library**
+
+!['state-management-with-redux'][state_management_with_redux]
+
+> **RxJS Pattern with Redux**
+
 > **Through Angular services by using simple variables and Promises**
 
 [hierarchical_component_interaction]: ./assets/hierarchical-component-interaction.png
 [simple_states_through_angular_service]: /assets/simple-states-through-angular-service.png
+[state_management_with_redux]: /assets/state-management-with-redux.png
+[ng_service_with_rxjs_pattern]: /assets/ng-service-with-rxjs-pattern.png
 
 ### Definitions
 
