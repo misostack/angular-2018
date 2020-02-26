@@ -50,7 +50,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > **Hierarchical component’s interaction**
 
+!['simple-states-through-angular-service'][simple_states_through_angular_service]
+
+> **Through Angular services by using simple variables and Promises**
+
 [hierarchical_component_interaction]: ./assets/hierarchical-component-interaction.png
+[simple_states_through_angular_service]: /assets/simple-states-through-angular-service.png
 
 ### Definitions
 
