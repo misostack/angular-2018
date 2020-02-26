@@ -1,6 +1,8 @@
 # Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version **8.3.19.**
+
+> **Angular Version: Angular: 8.2.14**
 
 ## Development server
 
